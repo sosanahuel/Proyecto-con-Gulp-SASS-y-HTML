@@ -8,8 +8,125 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./build/css/app.css">
 </head>
 <body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & EMD Festival</h1>
+            <nav class="navegacion-principal">
+                <a href="">Line up</a>
+                <a href="">Galeria</a>
+                <a href="">Boletos</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="video">
+
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>ROCK & EMD Video</h2>
+                <p>un parrafo cualquiera</p>
+            </div>
+        </div>
+        
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+
+    </div>
+
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+                <source srcset="build/img/imagen_volalista.webp" type="image/webp">
+
+                <img loading="lazy" width="200" height="300" src="build/img/imagen_vocalista.jpg" alt="vocalista rock">
+            </picture>
+            
+        </div>
+        <div class="contenido-festival">
+            <h2>Rock & EMD Festival</h2>
+            <p class="fecha">Julio 2022, Mexico</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo tempora explicabo ea voluptate, libero aliquam possimus earum iusto impedit doloremque, saepe a quidem obcaecati. Distinctio esse molestiae asperiores alias. Ipsa!</p>
+        </div>
+    </section>
+
+
+    <section class="lineup">
+        <h3>Line Up</h3>
+        <p class="dia">Viernes 10</p>
+        <div class="escenario-contenedor contenedor">
+
+            <div class="escenario rock bg-yellow">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+
+                    <li>00:00 | <span>Metallica</span></li>
+                    <li>23:00 | <span>Muse</span></li>
+                    <li>22:00 | <span>Foo Fighters</span></li>
+                    <li>21:00 | <span>Papa Roach</span></li>
+                    <li>20:00 | <span>30 Seconds to Mars</span></li>
+                    <li>18:00 | <span>Linkin Park</span></li>
+
+                </ul>
+            </div><!--ESCENARIO FIN-->
+
+            <div class="escenario edm bg-green">
+                <p class="nombre-escenario">Escenario EMD</p>
+                <ul class="calendario">
+                    <li>00:00 | <span>Deadmau5</span></li>
+                    <li>23:00 | <span>Tïeso</span></li>
+                    <li>22:00 | <span>Hardwell</span></li>
+                    <li>21:00 | <span>Dash Berlin</span></li>
+                    <li>20:00 | <span>Fedde Legrand</span></li>
+                    <li>19:00 | <span>Audien</span></li>
+
+                </ul>
+            </div>
+
+        </div> <!--ESCENARIO CONTENEDOR FIN-->
+
+        <p class="dia">Sabado 12</p>
+        <div class="escenario-contenedor contenedor">
+
+            <div class="escenario rock bg-green">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>00:00 | <span>Last Dinosaurs</span></li>
+                    <li>23:00 | <span>The Kooks</span></li>
+                    <li>22:00 | <span>The Drums</span></li>
+                    <li>21:00 | <span>Two Door Cinema Club</span></li>
+                    <li>20:00 | <span>The Police</span></li>
+                    <li>18:00 | <span>Arctic Monkeys</span></li>
+
+                </ul>
+            </div><!--ESCENARIO FIN-->
+
+            <div class="escenario edm bg-yellow">
+                <p class="nombre-escenario">Escenario EMD</p>
+                <ul class="calendario">
+                    <li>00:00 | <span>Paul Van Dyk</span></li>
+                    <li>23:00 | <span>Armin Van Buuren</span></li>
+                    <li>22:00 | <span>Above & Beyond</span></li>
+                    <li>21:00 | <span>Eric Prdyz</span></li>
+                    <li>20:00 | <span>Ferry Corsten</span></li>
+                    <li>18:00 | <span>Vini Vici</span></li>
+
+                </ul>
+            </div>
+
+        </div> <!--ESCENARIO CONTENEDOR FIN-->
+    </section>
+
+
+    
+
 
 </body>
 </html>

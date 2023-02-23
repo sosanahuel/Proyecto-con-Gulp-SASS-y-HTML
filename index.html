@@ -15,9 +15,9 @@
         <div class="contenedor contenido-header">
             <h1>Rock & EMD Festival</h1>
             <nav class="navegacion-principal">
-                <a href="">Line up</a>
-                <a href="">Galeria</a>
-                <a href="">Boletos</a>
+                <a href="#Lineup">Line up</a>
+                <a href="#Galeria">Galeria</a>
+                <a href="#Boletos">Boletos</a>
             </nav>
 
         </div>
@@ -58,7 +58,7 @@
     </section>
 
 
-    <section class="lineup">
+    <section id="Lineup" class="lineup">
         <h3>Line Up</h3>
         <p class="dia">Viernes 10</p>
         <div class="escenario-contenedor contenedor">
@@ -124,9 +124,68 @@
         </div> <!--ESCENARIO CONTENEDOR FIN-->
     </section>
 
-
     
+    <section id="Galeria" class="galeria contenedor">
+        <h3>Galeria</h3>
 
+        <ul class="galeria-imagenes"></ul>
+
+
+    </section>
+
+    <section id="Boletos" class="boletos bg-green">
+        <h3>Boletos</h3>
+
+        <div class="contenedor contenedor-boletos">
+            <div class="basico pase">
+                <p class="nombre-pase">Pase 1 dia</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Aceso a ambos escenarios</li>
+                        <li>Comida y bebida</li>
+                    </ul>
+                </div>
+
+                <footer class="pase-footer">
+
+                    <p>$100</p>
+                </footer>
+            </div>
+
+            <div class="premuim pase">
+                <p class="nombre-pase">Pase 2 dias</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Aceso a ambos escenarios</li>
+                        <li>Comida y bebida</li>
+                        <li>Camisa del evento</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+
+                    <p>$180</p>
+                </footer>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <footer class="site-footer">
+        <p>Rock & EMD Festival. Todos los derechos reservados</p>
+    </footer>
+
+
+    <script src="./build/js/app.js"></script>
 
 </body>
 </html>
